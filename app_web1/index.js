@@ -5,6 +5,8 @@ const app = express();
 
 
 app.get("/hello", function (req, res) {
+    let a = req.params.a;
+    let b = req.params
     res.send("Ola, mundo web!");
 });
 

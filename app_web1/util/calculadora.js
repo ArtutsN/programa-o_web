@@ -1,6 +1,6 @@
 module.exports = {
     somar: function(a, b){
-        return a + b;
+        return Number.parseInt(a) + Number.parseInt(b);
     },
 
     subtrair: function(a, b){
